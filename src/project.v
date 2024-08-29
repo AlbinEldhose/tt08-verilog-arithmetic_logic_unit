@@ -23,9 +23,10 @@ module tt_um_arithmetic_logic_unit (
     assign uo_out[7:6]=0;
 
   // List all unused inputs to prevent warnings
-    wire_unused = &{ena, clk, rst_n, 1'b0};
-
-    arithmetic_logic_unit arithmetic_logic_unit (
+   assign ena=0;
+    assign clk=0;
+        assign rst_n=0;
+arithmetic_logic_unit arithmetic_logic_unit (
         .A(ui_in[2:0]),
         .B(ui_in[5:3]),
         .sel(ui_in[7:6]),

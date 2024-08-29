@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It is 3 bit ALU which does the operations such as addition,subtraction,multiplication,division of two 3bit numbers.
 
 ## How to test
 
-Explain how to use your project
+when the 2 inputs are A=111 and B=100 with sel=00 output will be sum of two inputs result=001011
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+nothing

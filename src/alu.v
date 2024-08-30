@@ -1,4 +1,4 @@
-module arithmetic_logic_unit (result,A,B,sel);
+module arithmetic_logic (result,A,B,sel);
     input [2:0] A; // 3-bit input A
     input [2:0] B; // 3-bit input B
     input [1:0] sel; // 2-bit select signal

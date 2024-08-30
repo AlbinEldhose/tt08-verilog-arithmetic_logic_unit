@@ -13,8 +13,8 @@ It is 3 bit ALU which does the operations such as addition,subtraction,multiplic
 
 ## How to test
 
-when the 2 inputs are A=111 and B=100 with sel=00 output will be sum of two inputs result=001011
+when the 2 inputs are A=111 and B=100 with sel=00 output will be sum of two inputs result=001011. Similiarly when sel=01 subtraction, sel=10 multiplication, sel=11 division
 
 ## External hardware
 
-nothing
+The project was tested using an Intel/Altera FPGA (EP2C20F484C7).
